@@ -14,7 +14,7 @@ import org.infinispan.client.hotrod.impl.ConfigurationProperties;
 @QuarkusMain
 public class JMain {
     public static void main(String... args) {
-        System.out.println("CIAOOOOOO");
+        System.out.println("main()");
         System.out.println("Result: "+jget("mycache","mykey"));    
     }
 
